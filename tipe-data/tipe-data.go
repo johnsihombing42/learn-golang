@@ -12,5 +12,7 @@ func main() {
 	fmt.Println("Salah : ",false)
 
 	//tipe data string
-	
+	fmt.Println("John Tri Putra Sihombing")
+	fmt.Println(len("John Sihombing"))
+
 }
