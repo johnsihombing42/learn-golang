@@ -6,7 +6,7 @@ func main()  {
 	var name string
 	name="John Tri Putra Sihombing"
 	fmt.Println(name)
-
+		
 	name="John"
 	fmt.Println(name)
 
