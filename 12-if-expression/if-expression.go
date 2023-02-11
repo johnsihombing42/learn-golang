@@ -7,11 +7,9 @@ func main() {
 
 	if name == "John Sihombing" {
 		fmt.Println("Hello John")
-	} else if name == "Joko"{
+	} else if name== "Joko"{
 		fmt.Println("Ini Joko")
-	}else if name == "Putra"{
-		fmt.Println("Ini Putra")
-		} else{
+	} else{
 		fmt.Println("Ini bukan John")
 	}
 	
