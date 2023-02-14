@@ -32,4 +32,7 @@ func main() {
 	var slice3=append(slice2,"John")
 	fmt.Println(slice3)
 
+
+	var fruits = []string{"apple", "grape", "banana", "melon"}
+	fmt.Println(len(fruits)) // 4
 }
