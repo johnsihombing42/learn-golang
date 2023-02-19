@@ -33,6 +33,6 @@ func main() {
 	fmt.Println(slice3)
 
 
-	var fruits = []string{"apple", "grape", "banana", "melon"}
+	var fruits = []string{"apple", "grape", "banana", "melon","orange"}
 	fmt.Println(len(fruits)) 
 }
