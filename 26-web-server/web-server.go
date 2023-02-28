@@ -6,12 +6,12 @@ import (
 )
 
 func index(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintln(w, "apa kabar!")
+    fmt.Fprintln(w, "Hello World")
 }
 
 func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintln(w, "halo!")
+        fmt.Fprintln(w, "Hello!")
     })
 
     http.HandleFunc("/index", index)
