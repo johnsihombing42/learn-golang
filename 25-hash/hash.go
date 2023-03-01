@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-    var text = "John Tri Putra Sihombing"
+    var text = "John Tri"
     var sha = sha1.New()
     sha.Write([]byte(text))
     var encrypted = sha.Sum(nil)
