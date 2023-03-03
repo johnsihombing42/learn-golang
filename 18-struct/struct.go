@@ -13,7 +13,7 @@ func (customer Customer)sayHi(name string){
 
 func main() {
 	var john Customer
-	john.Address = "Martubung"
+	john.Address = "Medan"
 	john.Phone = "085338383"
 	john.Age = 21
 	fmt.Println(john)
