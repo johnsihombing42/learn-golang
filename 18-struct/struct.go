@@ -15,7 +15,7 @@ func main() {
 	var john Customer
 	john.Address = "Medan"
 	john.Phone = "085338383"
-	john.Age = 21
+	john.Age = 20
 	fmt.Println(john)
 	
 	//struct literal
